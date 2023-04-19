@@ -11,7 +11,7 @@ class Triangle {
     });
 
     if (sides[0] + sides[1] <= sides[2]) {
-      throw Exception('this is equal');
+      throw Exception('this is inequal triangle');
     }
 
     if (sides[0] == sides[1] && sides[0] == sides[2]) {
